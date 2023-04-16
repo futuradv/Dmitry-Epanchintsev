@@ -1,0 +1,146 @@
+body {
+	background: linear-gradient(to right, #FF6B6B, #1E90FF);
+	font-family: Arial, sans-serif;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+header img{
+	width: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+h1 {
+	color: white;
+	text-shadow: 2px 2px #000000;
+	margin-bottom: 0;
+}
+
+nav {
+	margin-top: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #F4FF77;
+}
+
+main {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+h2 {
+	color: white;
+	text-shadow: 2px 2px #000000;
+	margin-top: 0;
+}
+
+.project {
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 0px 7px 7px 7px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+.project h3 {
+	color: #1E90FF;
+	margin-top: 0;
+}
+
+.project-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 20px;
+
+}
+.project-images a{
+	margin-bottom: 10px;
+	border-radius: 5px;
+	max-width: 30%;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	flex-basis: calc(33.33% - 20px);
+}
+.project-images img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	
+}
+
+.project p {
+	margin-top: 0;
+}
+
+button {
+	background-color: #1E90FF;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #F4FF77;
+	color: #1E90FF;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	margin-bottom: 10px;
+}
+
+a {
+	color: #1E90FF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.commentary {
+	width: 400px;
+}
+.commentary li{
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 0px 7px 7px 7px;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	padding-left: 10px;
+	 word-spacing: 0.1em;
+	 line-height:20px;
+}
+.contact{
+ background-color: rgba(255, 255, 255, 0.8);
+ border-radius: 0px 7px 7px 7px;
+ padding-top: 10px;
+padding-bottom: 5px;
+	padding-left: 10px;
+}
